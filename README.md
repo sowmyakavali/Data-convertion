@@ -9,3 +9,15 @@ Here you can convert annotations from one format to another .
     5. csv to xml  
     6. csv to txt   
     7. csv to json
+
+Requirements:
+
+       os
+       csv
+       glob
+       json
+       lxml
+       numpy
+       pandas
+       pillow
+       argparse
