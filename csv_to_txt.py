@@ -15,7 +15,7 @@ def convert_coordinates(size, box):
     x = x*dw
     w = w*dw
     y = y*dh
-    h = -(h*dh)
+    h = h*dh
     return (x,y,w,h)
 
 def csv_to_txt(csv_path ,out_path):
