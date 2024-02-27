@@ -70,11 +70,8 @@ if __name__ == '__main__' :
 
     #  Define your classes , you can add more 
     lut={}
-    lut["bus"] = 0
-    lut["car"] = 1
-    lut["motorcycle"] = 2
-    lut["truck"] = 3
-    lut["vehicle fallback"] = 4
+    lut["license_plate"] = 0
+    
 
     # Write out to txts
     xml_to_txt( lut , args["input"], args["output"])          
